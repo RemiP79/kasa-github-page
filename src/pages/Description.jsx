@@ -19,7 +19,7 @@ function DescriptionPage() {
   const TablRat=[1,2,3,4,5];  
   const datajson = DataJson.find(location=>location.id===id);
   if(datajson===undefined){
-    return <Navigate to="/*"/>
+    return <Navigate to="/"/>
   }
 
   return (
