@@ -1,0 +1,51 @@
+.wrapperDescription{
+    display:flex;
+    width : 100%;
+    justify-content: right;
+    align-items: center;
+    margin-top : 20px;
+}
+.accordeonDescription{
+    width : 100%;
+}
+.iconeAccordeonDescription{
+    font-size : 1.5em;
+}
+
+.alignLeft{
+    display: flex;
+    justify-content: left;
+}
+.AccordeonItemDescription{
+    background-color: rgb(255, 100, 100);
+    margin-bottom: 10px;
+    width : 90%;
+    border-radius : 10px;
+}
+.AccordeonTitleDescription{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    color : white;
+    font-family : arial;
+    font-size : 1.1em;
+    font-weight :inherit;
+    padding : 0 10px;
+    height : 35px;    
+}
+
+.accordeonContentDescription {
+    overflow: hidden;
+    max-height : 0;
+    background-color: rgb(246,246,246);
+    transition : all  cubic-bezier(0,1,0,1);
+}
+
+.accordeonContentDescription.showDescription {
+    height : auto;
+    max-height : 100px;
+    transition : all 0.1s cubic-bezier(1,0,1,0);
+    color : rgb(255, 100, 100);
+    padding : 20px 10px 10px;
+    font-size : 1em;
+}

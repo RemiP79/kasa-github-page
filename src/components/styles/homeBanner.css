@@ -1,0 +1,49 @@
+.homeBanner{
+    height : 170px;
+    margin-bottom : 50px;
+    position : relative;    
+    margin : 0 6.5%; 
+      
+}
+
+.homeBanner img{    
+    height : 100%;
+    width : 100%;
+    object-fit: cover;
+    border-radius : 40px;
+    filter : brightness(70%);
+}
+
+.homeBanner p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-family : arial;
+    color : white;
+    font-size : 2rem;
+    margin:0;    
+}
+
+@media all and (max-width: 600px) {
+    .homeBanner{           
+        margin : 0 4%;
+        height : 100px;
+    }
+    
+    .homeBanner img{
+        height : 100px;
+        width : 100%;
+        object-fit: cover;
+        border-radius : 10px;
+        filter : brightness(70%);
+    }
+
+    .homeBanner p{
+        top: 50%;
+        left : 30%;
+        width : 35%;
+        height: auto;
+        font-size : 4vw;
+    }    
+}
