@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kasa-github-page/static/css/main.b1b7fcb0.css",
-    "main.js": "/kasa-github-page/static/js/main.f4676cf4.js",
+    "main.js": "/kasa-github-page/static/js/main.dc1a3cf7.js",
     "static/media/kalen-emsley.png": "/kasa-github-page/static/media/kalen-emsley.dc7a08e1faa2e14de0bd.png",
     "static/media/imgHomeBanner.png": "/kasa-github-page/static/media/imgHomeBanner.bc0243b0c2f7b87c1d91.png",
     "static/media/logoKasaRouge.png": "/kasa-github-page/static/media/logoKasaRouge.67048f2c8eab0f9730b5.png",
     "index.html": "/kasa-github-page/index.html",
     "main.b1b7fcb0.css.map": "/kasa-github-page/static/css/main.b1b7fcb0.css.map",
-    "main.f4676cf4.js.map": "/kasa-github-page/static/js/main.f4676cf4.js.map"
+    "main.dc1a3cf7.js.map": "/kasa-github-page/static/js/main.dc1a3cf7.js.map"
   },
   "entrypoints": [
     "static/css/main.b1b7fcb0.css",
-    "static/js/main.f4676cf4.js"
+    "static/js/main.dc1a3cf7.js"
   ]
 }
